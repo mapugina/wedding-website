@@ -20,6 +20,9 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/story', {
+        templateUrl: 'views/story.html'
+      })
       .when('/purposal', {
         templateUrl: 'views/purposal.html'
       })
