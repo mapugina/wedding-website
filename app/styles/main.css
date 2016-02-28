@@ -62,7 +62,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 680px;
   }
 
   /* Remove the padding we set earlier */
@@ -80,4 +80,31 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  .main-container {
+    margin-bottom: 120px;
+  }
+}
+
+body {
+  padding: 0;
+  background-image: url("../images/engagement%20landscape.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,h2,h3 {
+  font-family: 'Tangerine', cursive;
+}
+
+.main-container {
+  background-color: rgba(255,255,255,.8);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#explore {
+  margin: 10px;
 }
