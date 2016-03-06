@@ -88,10 +88,7 @@ body {
 
 body {
   padding: 0;
-  background-image: url("../images/engagement%20landscape.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background: url("../images/engagementlandscape.jpg") no-repeat fixed center;
   background-size: cover;
 }
 
