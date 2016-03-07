@@ -84,13 +84,14 @@ body {
   .main-container {
     margin-bottom: 120px;
   }
+
+  body {
+    background: url("../images/engagementlandscape.jpg") no-repeat fixed center;
+    background-size: cover;
+  }
 }
 
-body {
-  padding: 0;
-  background: url("../images/engagementlandscape.jpg") no-repeat fixed center;
-  background-size: cover;
-}
+
 
 h1,h2,h3 {
   font-family: 'Tangerine', cursive;
